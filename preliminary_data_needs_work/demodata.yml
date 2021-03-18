@@ -14,28 +14,25 @@ conversations:
   - It is on March 12th
 - - What is midterm date?
   - It is on March 12th
-- - What do you mean?
-  - You just replace my lines with yours in this file
-- - Do you really mean I can just modify this file?
-  - That is correct or copy this file and every line that starts with "- -" is your statement and every line that starts
-    with "  -" is my respond. 
-- - But how much data can I insert in here?
-  - How long is a string?
-- - Does it matter how much data I insert in here?
-  - Both yes and no, as more data as faster the chatterbot will be trained, but this data is good enough to start with.
-- - Can I type any langauge in here?
-  - We can try... Let's try Swedish, Please type "Hej hur mår du?" and see if it works.
-- - Hej hur mår du?
-  - Jag mår bra, hur mår du?
-- - Jag mår bra
-  - Roligt att höra.
-- - Det funkar att skriva på Svenska.
-  - I'll will answer in ENGLISH, but all unicoded languages will work. Even Swedish. 
-- - How do I import my data to Chatterbot?
-  - If you are using Django, modify the settings.py file and under section "training_data" you adding following line. 
-    "'chatterbot.corpus.custom.myown'"
-- - If I call my own training file to let's say myfavsport.yml and put that file in directory sports instead of custom,
-    how will that look then?
-  - "'chatterbot.corpus.sports.myfavsport'"
-- - Cool, I think I got it now
-  - Sweet, may the force be with you   
+- - When does this class meet?
+  - This course is online only, there are no set meeting dates for this class.
+- - When does this course meet?
+  - This course is online only, there are no set meeting dates for this class.
+- - Can I see the schedule?
+  - Have you read the syllabus? This should help get you started: canvas.rutgers.edu
+- - Where are the scehdule for this course?
+  - Have you read the syllabus? This should help get you started: canvas.rutgers.edu
+- - What is a theatrical performance?
+  - It is a catch-all term used to describe any kind of drama, musical, play, or event that takes place on a stage of some sort.
+- - What is a straight play?
+  - It is a play that is not a musical.
+- - What is a play?
+  - It is a dramatic performance, as on the stage.
+- - What is a musical?
+  - It is a play or motion picture in which the storyline is interspersed with or developed by songs, dances, and the like.
+- - What is the difference between a play and musical?
+  - Musical has music, dances or songs intertwined in the play, play encompasses musical, but not the other way around.
+- - Thanks for helping me
+  - No problem!
+- - Thank you
+  - No problem!
