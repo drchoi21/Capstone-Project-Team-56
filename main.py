@@ -9,13 +9,9 @@ chatbot = ChatBot("AITA")
 
 trainer = ChatterBotCorpusTrainer(chatbot)
 
+#initial training set
 trainer.train(
-#    'How can I help you?',
-#    'When is the exam?',
-#    'Have you read the syllabus?',
-#    'No, I have not',
-#    'This should help get you started: sakai.rutgers.edu'
-        "chatterbot.corpus.custom.myown"
+        "chatterbot.corpus.custom.demodata"
 )
 
 #control script to control when to end the session
